@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Earth and Moon</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="space.jpeg"></a-sky>
+      <a-sphere radius="8" src="earth.jpeg" position="0 0 0" animation="property: rotation; to: 0 360 0; dur: 10000ms; loop: true;">
+      <a-sphere radius="3" src="moon.jpeg" position="28 0 0" animation="property: rotation; to: 30 360 30; dur: 10000ms; loop: true; "></a-sphere>
+    </a-sphere>
+    </a-scene>
+  </body>
+</html>
